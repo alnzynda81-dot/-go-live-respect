@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GO LIVE — Respect RP</title>
+  <meta name="description" content="GO LIVE — منصة تجمع بثوث صناع المحتوى في مكان واحد">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#">
+    <span class="brand-mark">▶</span><span>GO <b>LIVE</b></span>
+  </a>
+  <nav>
+    <a class="active" href="#home">الرئيسية</a>
+    <a href="#live">مباشر الآن</a>
+    <a href="#creators">صناع المحتوى</a>
+    <a href="#categories">التصنيفات</a>
+  </nav>
+  <div class="actions">
+    <input id="search" placeholder="ابحث عن صانع محتوى..." aria-label="البحث">
+    <button>تسجيل الدخول</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="respect">♛ RESPECT RP</div>
+    <h1>GO <span>LIVE</span></h1>
+    <p>منصة تجمع بثوث صناع المحتوى في مكان واحد</p>
+    <a class="primary" href="#live">شاهد البثوث المباشرة ▶</a>
+  </div>
+</section>
+
+<section id="categories" class="section cats">
+  <button class="cat active" data-filter="all">جميع التصنيفات</button>
+  <button class="cat" data-filter="Respect RP">♛ Respect RP</button>
+  <button class="cat" data-filter="KICK">🎮 KICK</button>
+  <button class="cat" data-filter="RP">💬 Roleplay</button>
+</section>
+
+<section id="live" class="section">
+  <div class="section-head"><h2>🔴 مباشر الآن</h2><span id="liveCount"></span></div>
+  <div id="liveGrid" class="grid"></div>
+</section>
+
+<section id="creators" class="section">
+  <div class="section-head"><h2>أشهر صناع المحتوى</h2><span>كل القنوات</span></div>
+  <div id="creatorGrid" class="creators"></div>
+</section>
+
+<section class="section about">
+  <div><span class="mini-logo">R</span></div>
+  <div><h2>GO LIVE × RESPECT RP</h2>
+  <p>واجهة تجمع مجتمع البثوث في مكان واحد. اضغط على أي قناة للانتقال إلى صفحتها على KICK.</p></div>
+</section>
+</main>
+
+<footer>© 2026 GO LIVE — Respect RP</footer>
+<script src="script.js"></script>
+</body>
+</html>
